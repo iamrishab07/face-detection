@@ -24,7 +24,7 @@ def getImagesID(path):
         IDs.append(ID)
         # names.append(name)
         cv2.imshow("Windows",faceNp)
-        cv2.waitKey(1000)
+        cv2.waitKey(10)
     return np.array(IDs), faces
 
 
